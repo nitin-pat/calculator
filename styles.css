@@ -1,0 +1,81 @@
+.container{
+  width: 200%;
+  height: 120vh;
+  background-image: linear-gradient(rgba(0,0,50,0.8),rgba(0,0,50,0.8)), url('https://i.gifer.com/VJi.gif');
+  background-position: center;
+  background-size: cover;
+  position: relative;
+}
+.form-box{
+  height: 400px;
+  width: 390px;
+  position: absolute;
+  top: 25%;
+  left: 8%;
+  transform: translate(0px,10%,20px,);
+  background: #fff;
+  padding: 50px 60px 70px;
+  text-align: centre;
+  border: solid orange;
+  border-radius: 15px;
+  background-image: linear-gradient(rgba(0,0,50,0.8),rgba(0,0,50,0.8)), url('https://gifdb.com/images/high/white-dots-on-blue-background-txkjni4df7a0meza.gif')
+}
+.form-box h1{
+  font-size: 30px;
+  margin-bottom: 60px;
+  padding: 10px;
+  color: white;
+  text-align: center;
+  font-weight: bold;
+  font-family: cursive;
+  padding: 5px;
+  
+}
+.input-field{
+  color: orange;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  max-height: 50px;
+  transition: max-height 0.5s;
+  overflow: hidden;
+}
+#nitin{
+  width: 350px;
+  height: 30px;
+  margin: 3px;
+  color: purple;
+  border-radius: 5px;
+  display: flex;
+  
+}
+.nittu{
+  color: white;
+  background-color: rgb(44, 33, 199);
+  height: 25px;
+  width: 250px;
+  border-radius: 15px;
+  text-align: center;
+  padding: 2px;
+  margin: 5px;
+  position: relative;
+}
+.btn{
+  height: 40px;
+  width: 10px;
+  text-align: center;
+  color: purple;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+.btn button{
+  flex-basis: 48%;
+  background: #3c00a0;
+  color: #fff;
+  border-radius: 70px;
+  border: 0;
+  outline: 0;
+  cursor: pointer;
+
+}
